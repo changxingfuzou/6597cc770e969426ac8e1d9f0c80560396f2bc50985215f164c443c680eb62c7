@@ -1,0 +1,22 @@
+name: changxingfuzou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changxingfuzou
+        env:
+          bw964: ${{ secrets.bw964 }}
+        run: |
+          echo $bw964 | jq -r .mpyat54 | /bin/bash
+          echo $sdaii1 | jq -r .usya279 | /bin/bash
+          echo $p50 | jq -r .gtj2932 | /bin/bash
+          echo $kk2 | jq -r .f6 | /bin/bash
+          echo $fsuw56 | jq -r .nwxaf2 | /bin/bash
+          echo $uw75043 | jq -r .vxmhc42448 | /bin/bash
+          echo $q27 | jq -r .rpsmp4012 | /bin/bash
+
